@@ -1,6 +1,6 @@
 
-Creating Forms
-Most websites provide forms to their users. Login and Signup forms are two common examples. When creating your own forms, there are different types of form elements that can be used (ex - text inputs, check boxes, and select dropdowns). For this project you will be creating both a login and signup form, and then applying validation to them. Keep in mind that there isn't one right way in creating forms. Their are different approaches you can take and Angular validation options that you can use. Feel free to customize this project any way you would like, or do extra research to see how others have created their forms. 
+<h1>Creating Forms</h1>
+<p>Most websites provide forms to their users. Login and Signup forms are two common examples. When creating your own forms, there are different types of form elements that can be used (ex - text inputs, check boxes, and select dropdowns). For this project you will be creating both a login and signup form, and then applying validation to them. Keep in mind that there isn't one right way in creating forms. Their are different approaches you can take and Angular validation options that you can use. Feel free to customize this project any way you would like, or do extra research to see how others have created their forms.</p>
 
 You can create your forms however you would like, including creating your own CSS. One great option (that we recommend) would be to use Bootstrap. Check out the available Bootstrap CSS for form elements here (link to http://getbootstrap.com/css/#forms).
 
