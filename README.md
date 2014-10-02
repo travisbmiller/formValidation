@@ -211,12 +211,12 @@ $http({
 ````
 
 ### Passwords
-
+Create a directive that checks if passwords match in two input fields. 
 
 
 ## Signup User
 
-If you've made it this far, that's very impressive. Just for fun, go ahead and implement the...
+If you've made it this far, that's very impressive. Just for fun, go ahead and complete the signup form by submitting the new user information to the server. The server.js file will expect to receive an object, and then push it to the existing users array.
 
 
 
