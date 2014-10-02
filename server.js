@@ -95,5 +95,6 @@ app.post('/signup.verifyUsername', function(req, res) {
 })
 
 app.post('/signup.newUser', function(req, res) {
-
+	users.push(req.body.user)
+	res.send({success: true;})
 })

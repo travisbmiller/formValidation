@@ -124,45 +124,4 @@ body {
 			cursor: pointer;
 		}
 
-	.forms-container {
-		border: solid 3px #3b5998;
-		background-color: #fff;
-	}
-
-		.login-form, .signup-form {
-			padding: 20px 10px;
-		}
-
-		.forms-container .field-row {
-			padding: 2px 0;
-			margin-bottom: 15px;
-		}
-
-		.forms-container label {
-			display: block;
-			color:	#3b5998;
-			font-weight: bold;
-		}
-
-		.forms-container input {
-			
-		}
-
-/*		.forms-container button {
-			border-radius: 3px;
-			background-color: #3b5998;
-			cursor: pointer;
-			border: none;
-			outline: none;
-			color: #fff;
-			padding: 5px 10px;
-			position: relative;
-			left: 300px;
-	    }
-
-		.forms-container button:hover {
-			outline: none;
-			background-color: #8b9dc3;
-		}*/
-
 	
