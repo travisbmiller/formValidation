@@ -1,0 +1,9 @@
+{
+  "name": "devSocial",
+  "description": "DevMountain project on AngularJS form validation and review",
+  "version": "0.0.1",
+  "dependencies": {
+    "express": "4.x",
+    "body-parser": "1.x"
+  }
+}

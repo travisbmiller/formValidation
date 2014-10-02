@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html ng-app='devSocial'>
+<head>
+	<title>devSocial</title>
+
+	<!-- Stylesheets -->
+	<link rel="stylesheet" type="text/css" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+	<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="app/styles/styles.css">
+</head>
+<body>
+
+	<div class="header-wrapper" ng-include="'app/js/header/header.html'"></div>
+	<div ng-view></div>
+
+	<!-- Environment -->
+
+	<!-- Vendor -->
+	<script src="app/bower_components/angular/angular.min.js"></script>
+	<script src="app/bower_components/angular-route/angular-route.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+    <!-- App -->
+    <script src="app/js/app.js"></script>
+
+    <!-- header -->
+    <script src="app/js/header/headerCtrl.js"></script>
+
+    <!--home -->
+	<script src="app/js/home/homeCtrl.js"></script>
+
+    <!-- login-register -->
+	<script src="app/js/login-register/loginCtrl.js"></script>
+	<script src="app/js/login-register/loginService.js"></script>
+	<script src="app/js/login-register/signupCtrl.js"></script>
+	<script src="app/js/login-register/signupService.js"></script>
+
+	<!-- userView -->
+
+
+</body>
+</html>
