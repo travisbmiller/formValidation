@@ -184,7 +184,7 @@ Use the snippet below when you make the server request in your service. The **us
 ````Javascript
 $http({
 	method: 'POST',
-	url: 'http://localhost:1212/login/',
+	url: 'http://localhost:1212/loginUser/',
 	data: {
 		user: user
 	}
