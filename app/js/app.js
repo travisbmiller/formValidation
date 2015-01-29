@@ -1,21 +1,4 @@
 'use strict';
 
-var app = angular.module('devSocial', ['ngRoute']);
+var app = angular.module('devSocial', []);
 
-app.config(['$routeProvider', function($routeProvider){
-
-  $routeProvider
-    .when('/', {
-      templateUrl: 'app/js/home/home.html',
-      controller: 'homeCtrl'
-      // resolve: {
-      //   allData: function($route, homeService){
-      //     return homeService.getAllData();
-      //   }
-      // }
-    })
-    .otherwise({
-      redirectTo: '/'
-    });
-
-}]);
